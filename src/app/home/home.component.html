@@ -8,7 +8,7 @@
         <a class="item" [routerLink]="['/register-login']" routerLinkActive="router-link-active">Sign-up as an
             intern</a>
     </div>
-    <div class="jumbotron">
+    <div class="jumbotron" align="center">
         <h1 class="display-4">Get great interns</h1>
         <p class="lead">We are providing trained, talented, and amazing interns to help bring your company value.</p>
         <hr class="my-4">
@@ -18,26 +18,32 @@
     </div>
 
     <div class="ui placeholder segment">
-        <div class="ui two column stackable center aligned grid">
+        <div class="ui three column stackable center aligned grid">
+
             <h2 class="ui header">Its as simple as </h2>
+
+
+
             <div class="middle aligned row">
                 <div class="column">
                     <div class="ui icon header">
                         <i class="pencil alternate icon"></i>
-                        Register
+                        Registering
                     </div>
-                </div>
-
-
-
-                <div class="ui vertical divider">
-                    Find Talent
                 </div>
 
                 <div class="column">
                     <div class="ui icon header">
+                        <i class="search icon"></i>
+                        Finding Talents
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="ui icon header">
                         <i class="world icon"></i>
-                        Hire
+                        Hiring
                     </div>
                     <div class="ui black button" [routerLink]="['/register-login']"
                         routerLinkActive="router-link-active">
